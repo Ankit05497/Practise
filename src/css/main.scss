@@ -1,0 +1,40 @@
+@import url('jquery-ui.min.css');
+$color : #87ceeb;
+
+body {
+	background-color: $color;
+}
+
+.nav-sections li {
+	display: inline-block;
+	text-decoration: underline;
+	margin: 0 100px;
+}
+
+.nav-sections
+	{
+		li:first-child {
+		margin-left: 0;
+	}
+}
+ 
+.suggestionForm {
+	border: 1px solid black;
+	padding: 20px;
+	border-radius: 5px;
+}
+.suggestionForm label,legend {
+	font-weight: 600;
+}
+.singleField {
+	margin : 5px 0;
+}
+.errorMessage {
+	color: red;
+	margin-top: 0;
+}
+.submitMessge {
+	font-size: 2rem;
+	font-weight: bold;
+	text-align: center;
+}
